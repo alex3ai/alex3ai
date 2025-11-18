@@ -21,9 +21,10 @@ Sou um entusiasta da tecnologia, focado em aplicar minha sólida base analítica
 
 Tenho experiência em projetos de Data Science e Business Intelligence:
 
+* **Deep Learning & Visão Computacional:** Desenvolvimento de redes neurais avançadas (CNNs, GNNs) com PyTorch para análise de imagens de satélite e dados complexos.
 * **Data Science:** Modelagem preditiva (Scikit-learn, LightGBM) para resolver problemas de negócio, como a predição de Churn.
 * **Business Intelligence:** Criação de dashboards e relatórios em Power BI para visualização de KPIs e suporte à decisão.
-* **MLOps:** Deploy de modelos como APIs (FastAPI) e conteinerização (Docker) para colocar as soluções em produção.
+* **MLOps:** Deploy de modelos como APIs (FastAPI), interfaces interativas (Streamlit) e conteinerização (Docker).
 
 ---
 
@@ -31,6 +32,9 @@ Tenho experiência em projetos de Data Science e Business Intelligence:
 
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt="Python" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" alt="OpenCV" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original.svg" alt="Streamlit" width="50" height="50"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" alt="Docker" width="50" height="50"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" alt="FastAPI" width="50" height="50"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" alt="Pandas" width="50" height="50"/>
@@ -40,7 +44,6 @@ Tenho experiência em projetos de Data Science e Business Intelligence:
 </p>
 
 ---
-
 
 ### 📊 Minhas Estatísticas no GitHub
 
