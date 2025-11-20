@@ -28,21 +28,30 @@ Tenho experiência em projetos de Data Science e Business Intelligence:
 
 ---
 
-### 🌟 Projeto em Destaque: Classificador de Sentimentos (TensorFlow/RNN)
-Um projeto *full-stack* de Processamento de Linguagem Natural (PLN) que aplica Redes Neurais Recorrentes (RNN) com **LSTM Bidirecional** para classificar críticas de filmes (IMDb).
+---
 
-- **Resultados:** Acurácia de **84.07%** no conjunto de teste.
-- **Destaques:** Pipeline de dados otimizado, `TextVectorization` integrado e gráficos de curva de aprendizado.
+### ☁️ Novo Projeto em Destaque: Pipeline ELT no GCP (BigQuery)
 
-<a href="https://github.com/alex3ai/classificador-sentimentos-rnn" target="_blank">
-  <img src="https://img.shields.io/badge/Acesse_o_Repositório-D00000?style=for-the-badge&logo=github&logoColor=white" alt="Repositório GitHub">
+Projeto que simula uma arquitetura de dados moderna, transformando dados brutos do NYC TLC (formato **Parquet**) em um Data Warehouse no Google Cloud para análise de negócio.
+
+-   **Destaques:** **ELT** (GCS -> BigQuery), uso de **Window Functions** para Média Móvel de 7 dias e dashboard de visualização no **Looker Studio**.
+
+<a href="https://github.com/alex3ai/gcp-bigquery-nyc-taxi-analysis/tree/main" target="_blank">
+  <img src="https://img.shields.io/badge/Repositório-BigQuery_GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Repositório GCP">
 </a>
+<a href="[INSIRA AQUI O LINK PÚBLICO DO DASHBOARD]" target="_blank">
+  <img src="https://img.shields.io/badge/Dashboard-Looker%20Studio-F65C02?style=for-the-badge&logo=looker&logoColor=white" alt="Dashboard Looker Studio">
+</a>
+
+---
 
 ---
 
 ### 🛠️ Minhas Ferramentas e Tecnologias
 
 <p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original-wordmark.svg" alt="Google Cloud" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" alt="SQL/Postgres" width="50" height="50"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original-wordmark.svg" alt="TensorFlow" width="50" height="50"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" alt="Keras" width="50" height="50"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt="Python" width="50" height="50"/>
