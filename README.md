@@ -16,7 +16,9 @@ Atualmente, minha especialização está em orquestrar soluções de Data Scienc
 
 ---
 
-### ☁️ Projeto em Destaque: Pipeline ELT no GCP (BigQuery)
+### Projetos em Destaque: 
+
+### ☁️ Pipeline ELT no GCP (BigQuery)
 
 Este projeto simula uma arquitetura de dados moderna, transformando dados brutos (NYC TLC em **Parquet**) em um Data Warehouse otimizado no Google Cloud para análise de negócio.
 
@@ -25,15 +27,23 @@ Este projeto simula uma arquitetura de dados moderna, transformando dados brutos
 <a href="https://github.com/alex3ai/gcp-bigquery-nyc-taxi-analysis/tree/main" target="_blank">
   <img src="https://img.shields.io/badge/Repositório-BigQuery_GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Repositório GCP">
 </a>
-<a href="[INSIRA AQUI O LINK PÚBLICO DO DASHBOARD]" target="_blank">
-  <img src="https://img.shields.io/badge/Dashboard-Looker%20Studio-F65C02?style=for-the-badge&logo=looker&logoColor=white" alt="Dashboard Looker Studio">
-</a>
 
 ---
+
+### 🤖 Automação & DevOps: G1 Headline Bot
+
+Bot de Web Scraping resiliente que monitora notícias diariamente. O foco deste projeto foi implementar um ciclo completo de **CI/CD** e **GitOps**.
+
+*   **Destaques:** Pipeline automatizada no **GitHub Actions** (Cron Job), extração de dados com **BeautifulSoup**, versionamento automático de dados e tratamento de erros em produção.
+
+<a href="https://github.com/alex3ai/daily-headline-bot/blob/main/headline.txt" target="_blank">
+  <img src="https://img.shields.io/badge/Ver_Resultado-Live_Demo-46bc99?style=for-the-badge&logo=text-pattern&logoColor=white" alt="Ver Arquivo Gerado">
+</a>
 
 ### 🛠️ Minhas Ferramentas e Tecnologias
 
 <p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" alt="GitHub Actions" width="50" height="50"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt="Python" width="50" height="50"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original-wordmark.svg" alt="Google Cloud" width="50" height="50"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" alt="Docker" width="50" height="50"/>
