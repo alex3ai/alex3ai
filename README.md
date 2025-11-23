@@ -1,87 +1,67 @@
 # ⚡ Alex Mendes | Cientista de Dados & Engenheiro de GenAI
 
-Bem-vindo ao meu perfil! Sou um **Cientista de Dados em formação (FATEC)** com background sólido em **Engenharia Elétrica**. Meu foco é aplicar minha base analítica e conhecimentos em IA para transformar dados complexos em insights e soluções de engenharia acionáveis.
+Seja bem-vindo! Sou um **Cientista de Dados em formação (FATEC)** trazendo a precisão da **Engenharia Elétrica** para o mundo da Inteligência Artificial. 
+
+Meu diferencial é a capacidade de transitar entre a **análise matemática complexa** e a **implementação de software robusta**. Não apenas crio modelos; eu construo a infraestrutura para que eles funcionem no mundo real.
 
 ---
 
-### 💡 Foco de Carreira
+### 🎯 Foco e Especializações
 
-Atualmente, minha especialização está em orquestrar soluções de Data Science e Inteligência Artificial em ambientes de produção:
+Atuo na interseção entre Data Science e Engenharia de Software (MLOps), com foco em:
 
-* **GenAI Engineering & PLN Avançado:** Implementação de arquiteturas como **RAG (Retrieval-Augmented Generation)** com LLMs (ex: Gemini) e desenvolvimento de modelos de Deep Learning para análise avançada de texto.
-* **MLOps & Infraestrutura:** Orquestração do ciclo de vida do modelo (ML Lifecycle) através de APIs de alta performance (**FastAPI**), interfaces interativas (**Streamlit**) e **Conteinerização** (**Docker**).
-* **Deep Learning & Visão Computacional:** Desenvolvimento de redes neurais avançadas (CNNs, RNNs) com **PyTorch** e **TensorFlow** para análise de imagens e classificação de sentimentos.
-* **Modelagem Preditiva:** Aplicação de modelos avançados (Scikit-learn, **LightGBM**) para resolver problemas de negócio críticos, como a predição de Churn.
-* **Business Intelligence & Cloud:** Criação de dashboards e relatórios estratégicos em **Power BI** e arquitetura de dados moderna em **Google Cloud Platform (GCP)**.
-
----
-
-### Projetos em Destaque: 
-
-### ☁️ Pipeline ELT no GCP (BigQuery)
-
-Este projeto simula uma arquitetura de dados moderna, transformando dados brutos (NYC TLC em **Parquet**) em um Data Warehouse otimizado no Google Cloud para análise de negócio.
-
-* **Destaques:** Pipeline **ELT de alta performance** (GCS -> BigQuery), uso de **SQL avançado** com **Window Functions** para Média Móvel de 7 dias e dashboard de visualização no **Looker Studio**.
-
-<a href="https://github.com/alex3ai/gcp-bigquery-nyc-taxi-analysis/tree/main" target="_blank">
-  <img src="https://img.shields.io/badge/Repositório-BigQuery_GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Repositório GCP">
-</a>
+*   **🤖 GenAI & NLP:** Arquiteturas RAG com LLMs (Gemini/OpenAI) e Deep Learning para análise semântica.
+*   **⚙️ MLOps & Scalability:** Testes de carga (Locust), Dockerização e APIs de alta performance (FastAPI).
+*   **👁️ Computer Vision:** Redes Neurais (CNNs) com PyTorch/TensorFlow para classificação e detecção.
+*   **☁️ Cloud & Data Engineering:** Pipelines ELT modernos no GCP (BigQuery) e Automação (GitHub Actions).
 
 ---
 
-### 🤖 Automação & DevOps: G1 Headline Bot
+### 🚀 Projetos em Destaque
 
-Bot de Web Scraping resiliente que monitora notícias diariamente. O foco deste projeto foi implementar um ciclo completo de **CI/CD** e **GitOps**.
+Confira meus principais projetos focados em **escalabilidade, automação e arquitetura de dados**.
 
-*   **Destaques:** Pipeline automatizada no **GitHub Actions** (Cron Job), extração de dados com **BeautifulSoup**, versionamento automático de dados e tratamento de erros em produção.
+| **🛡️ MLOps: Stress Testing & Scalability** | **☁️ Data Eng: Pipeline ELT no Google Cloud** |
+| :--- | :--- |
+| **Tech:** Python, Locust, Docker, FastAPI<br>Simulação de alta demanda em API de Churn Prediction. Análise de gargalos (CPU-bound vs I/O), métricas de latência (p95) e validação de infraestrutura para produção.<br><br>[**Ver Repositório »**](https://github.com/alex3ai/projeto_stress_test_locust) | **Tech:** GCP, BigQuery, SQL, Looker<br>Arquitetura de dados moderna transformando dados brutos de Táxis de NY (Parquet) em insights de negócio. Uso de Window Functions e particionamento.<br><br>[**Ver Repositório »**](https://github.com/alex3ai/gcp-bigquery-nyc-taxi-analysis) |
 
-<a href="https://github.com/alex3ai/daily-headline-bot/blob/main/headline.txt" target="_blank">
-  <img src="https://img.shields.io/badge/Ver_Resultado-Live_Demo-46bc99?style=for-the-badge&logo=text-pattern&logoColor=white" alt="Ver Arquivo Gerado">
-</a>
-
-### 🛠️ Minhas Ferramentas e Tecnologias
-
-<p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" alt="GitHub Actions" width="50" height="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt="Python" width="50" height="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original-wordmark.svg" alt="Google Cloud" width="50" height="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" alt="Docker" width="50" height="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" alt="FastAPI" width="50" height="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original.svg" alt="Streamlit" width="50" height="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" width="50" height="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original-wordmark.svg" alt="TensorFlow" width="50" height="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" alt="OpenCV" width="50" height="50"/>
-  <img src="https://img.shields.io/badge/LightGBM-4B9A45?style=flat-square&logo=lightgbm&logoColor=white" alt="LightGBM" width="50" height="50"/>
-  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=power%20bi&logoColor=black" alt="Power BI" width="50" height="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" alt="SQL/Postgres" width="50" height="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" alt="Pandas" width="50" height="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" alt="Scikit-learn" width="50" height="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" alt="Git" width="50" height="50"/>
-</p>
+| **🤖 Automação: G1 Headline Bot (CI/CD)** | **🔮 Predictive Modeling: Churn Rate** |
+| :--- | :--- |
+| **Tech:** GitHub Actions, Python, BS4<br>Bot resiliente com ciclo completo de GitOps. Coleta notícias diariamente, versiona os dados e executa via Cron Job automatizado.<br><br>[**Ver Resultado (Live) »**](https://github.com/alex3ai/daily-headline-bot/blob/main/headline.txt) | **Tech:** LightGBM, Scikit-learn, Pandas<br>Modelo preditivo para retenção de clientes. Foco em engenharia de features, balanceamento de classes e métricas de negócio.<br><br>[**Ver Repositório »**](https://github.com/alex3ai) |
 
 ---
 
-### 📊 Minhas Estatísticas no GitHub
+### 🛠️ Stack Tecnológico
 
-<table>
-  <tr>
-    <td width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username=alex3ai&show_icons=true&theme=dark&count_private=true" alt="Estatísticas de Alex no GitHub" />
-    </td>
-    <td width="50%">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alex3ai&layout=compact&theme=dark" alt="Linguagens mais usadas" />
-    </td>
-  </tr>
-</table>
+| Categoria | Tecnologias |
+| :--- | :--- |
+| **Linguagens & Scripting** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white) ![Bash](https://img.shields.io/badge/Shell_Script-4EAA25?style=flat&logo=gnu-bash&logoColor=white) |
+| **Machine Learning & AI** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/Scikit_Learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) ![LightGBM](https://img.shields.io/badge/LightGBM-4B9A45?style=flat&logo=lightgbm&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white) |
+| **MLOps & Cloud** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=google-cloud&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) ![Locust](https://img.shields.io/badge/Locust-212121?style=flat&logo=locust&logoColor=white) ![Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white) |
+| **Web & Viz** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white) ![PowerBI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=power-bi&logoColor=black) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) |
 
 ---
 
-### 📬 Entre em Contato
+### 📊 GitHub Stats
 
-<a href="https://www.linkedin.com/in/alex-mendes-80244b292/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-</a> 
-<a href="mailto:alex_vips2@hotmail.com" target="_blank">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-</a>
+<div align="center">
+  <a href="https://github.com/alex3ai">
+  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=alex3ai&show_icons=true&theme=dark&count_private=true&hide_border=true" />
+  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alex3ai&layout=compact&theme=dark&hide_border=true" />
+  </a>
+</div>
+
+---
+
+### 📬 Vamos Conectar?
+
+Estou sempre aberto a discutir novas tecnologias, colaborações em projetos open-source ou oportunidades de negócio.
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/alex-mendes-80244b292/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="mailto:alex_vips2@hotmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  </a>
+</div>
