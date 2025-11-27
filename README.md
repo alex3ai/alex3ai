@@ -1,8 +1,7 @@
 # ⚡ Alex Mendes | Machine Learning Engineer & SRE
 
-Bem-vindo! Sou **Cientista de Dados (FATEC)** e amo *Aplicar* minhas habilidades análiticas para construir sistemas de IA robustos e escaláveis.
-
-Meu diferencial é a capacidade de transitar entre a **modelagem estatística complexa** e a **engenharia de software de alta performance**. Não apenas treino modelos; eu construo e valido a infraestrutura de MLOps e Dados para que eles operem com confiabilidade e eficiência no mundo real.
+Bem-vindo ao meu perfil! Sou Cientista de Dados (FATEC) e dedico minha carreira a aplicar habilidades analíticas para construir sistemas de IA robustos, confiáveis e escaláveis.
+Meu principal diferencial é a capacidade de transitar fluidamente entre a modelagem estatística complexa e a engenharia de software de alta performance. Minha abordagem vai além do simples treinamento de modelos; eu me concentro em projetar, construir e validar a infraestrutura completa de MLOps e Dados para garantir que as soluções operem com máxima confiabilidade e eficiência no mundo real.
 
 ---
 
