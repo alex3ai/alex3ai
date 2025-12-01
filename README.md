@@ -229,17 +229,27 @@ Bot de coleta de dados (News Scraping) com ciclo completo de GitOps. Execução 
 
 ## 🏆 Certificações e Conquistas
 
-<div align="center">
+### ☁️ Cloud & Data Engineering
+| Curso | Emissor | Conclusão |
+| :--- | :---: | :---: |
+| [**BigQuery for Data Analysts**](https://www.cloudskillsboost.google/public_profiles/83a417a7-6fb2-4171-a55c-0f4015dbe849/badges/13984689?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) | ![Google Cloud](https://img.shields.io/badge/Google_Cloud-%234285F4.svg?style=flat-square&logo=google-cloud&logoColor=white) | Fev 2025 |
+| [**Build and Deploy ML Solutions on Vertex AI**](https://www.credly.com/badges/16162374-3657-45b4-b5f8-d0516c31de6d/linked_in_profile) | ![Google Cloud](https://img.shields.io/badge/Google_Cloud-%234285F4.svg?style=flat-square&logo=google-cloud&logoColor=white) | Jan 2025 |
+| [**Hadoop Foundations - Level 1**](https://www.credly.com/badges/49c5c36d-b824-4502-9c9a-ac0e4927e427/linked_in_profile) | ![IBM](https://img.shields.io/badge/IBM-%23052FAD.svg?style=flat-square&logo=ibm&logoColor=white) | Dez 2024 |
+| [**Fundamentos de Eng. de Dados**](https://mycourse.app/TeSIEAo7VQsU2gDZc) | ![DSA](https://img.shields.io/badge/Data_Science_Academy-1F425F?style=flat-square) | Abr 2025 |
 
-| Certificação | Instituição | Status |
-|:---:|:---:|:---:|
-| **Cientista de Dados** | FATEC | ✅ Concluído (2024) |
-| **Google Cloud Associate** | Google Cloud | 🎯 Em preparação |
-| **Certified Kubernetes Administrator (CKA)** | Linux Foundation | 🎯 Planejado (2025) |
-| **Apache Kafka Developer** | Confluent | 🎯 Planejado (2025) |
+### 🧠 Data Science & BI
+| Curso | Emissor | Conclusão |
+| :--- | :---: | :---: |
+| [**Power BI para Business Intelligence**](https://mycourse.app/6gfqRQ1keHs3pDE1W) | ![DSA](https://img.shields.io/badge/Data_Science_Academy-1F425F?style=flat-square) | Set 2025 |
+| [**Machine Learning Operations (MLOps)**](https://www.cloudskillsboost.google/public_profiles/83a417a7-6fb2-4171-a55c-0f4015dbe849/badges/12498286?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) | ![Google Cloud](https://img.shields.io/badge/Google_Cloud-%234285F4.svg?style=flat-square&logo=google-cloud&logoColor=white) | Out 2024 |
+| [**Data Analytics**](https://secretariadigital.sp.senai.br/Render/RenderArquivo.ashx?c=184484) | ![SENAI](https://img.shields.io/badge/SENAI-E62D2D?style=flat-square) | Fev 2025 |
 
-</div>
-
+### 🎓 Acadêmico & Idiomas
+| Título / Grau | Instituição | Status |
+| :--- | :---: | :---: |
+| **Cientista de Dados** | ![FATEC](https://img.shields.io/badge/FATEC-B30000?style=flat-square) | Em andamento |
+| **Engenharia Elétrica** | ![UNIMAR](https://img.shields.io/badge/UNIMAR-0054A6?style=flat-square) | Concluído |
+| [**Inglês Proficiente (C1)**](https://cert.efset.org/pt/HTW72E) | ![EF SET](https://img.shields.io/badge/EF_SET-0077C8?style=flat-square) | 63/100 |
 ---
 
 ## 📊 GitHub Stats
