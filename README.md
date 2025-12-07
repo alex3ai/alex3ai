@@ -42,7 +42,7 @@ Meu principal diferencial é a capacidade de **transitar fluidamente entre a mod
 
 | 🚀 Deploys Automatizados | ☁️ Clusters Gerenciados | 📊 TB de Dados Processados | ⚡ APIs em Produção |
 |:---:|:---:|:---:|:---:|
-| **15+** | **3+** | **10+ TB** | **5+** |
+| **20+** | **5+** | **12+ TB** | **6+** |
 
 </div>
 
@@ -59,6 +59,7 @@ Atuo na interseção entre **Data Science, MLOps e SRE** (Site Reliability Engin
 ### ⚙️ MLOps e Cloud Architecture
 - Deploy de modelos em **Kubernetes (GKE)**
 - CI/CD com **GitHub Actions** 
+- Infraestrutura como Código com **Terraform**
 - Orquestração de sistemas distribuídos
 - Containerização com **Docker e Helm**
 
@@ -67,9 +68,10 @@ Atuo na interseção entre **Data Science, MLOps e SRE** (Site Reliability Engin
 
 ### ☁️ Data Engineering
 - Pipelines ELT no **GCP (BigQuery)**
-- Streaming com **Apache Kafka**
-- Otimização de performance
-- Modelagem dimensional e custos
+- Streaming com **Apache Kafka** e **Pub/Sub**
+- Processamento distribuído com **Dataproc**
+- Otimização de performance e custos
+- Modelagem dimensional
 
 </td>
 </tr>
@@ -81,6 +83,7 @@ Atuo na interseção entre **Data Science, MLOps e SRE** (Site Reliability Engin
 - Monitoramento: **Prometheus e Grafana**
 - APIs de alta disponibilidade (**FastAPI**)
 - Observabilidade end-to-end
+- Checkpoint strategies e fault tolerance
 
 </td>
 <td width="50%">
@@ -90,6 +93,7 @@ Atuo na interseção entre **Data Science, MLOps e SRE** (Site Reliability Engin
 - Fine-tuning de **LLMs**
 - Modelos de classificação e regressão
 - NLP e análise de sentimentos
+- **NLTK VADER** para sentiment analysis
 
 </td>
 </tr>
@@ -150,7 +154,24 @@ Análise profunda de performance de cluster Kafka para otimizar ingestão de dad
 
 ---
 
-### 🤖 Real-Time Sentiment Analysis Pipeline
+### ⚡ GCP Real-Time Sentiment Pipeline (Hybrid Architecture)
+
+**Stack:** `GCP Dataproc` `Pub/Sub` `Terraform` `Apache Spark` `BigQuery` `Looker Studio`
+
+Pipeline híbrido de streaming para análise de sentimentos que se adapta automaticamente entre ambiente local (Kafka) e produção cloud-native (GCP). Infraestrutura provisionada com Terraform em modo zero-touch.
+
+**✨ Highlights:**
+- ☁️ **Arquitetura Híbrida** com detecção automática de ambiente
+- 💰 **FinOps Otimizado** (~$9/mês com auto-delete e2-standard-4)
+- 🏗️ **IaC Completo** (Terraform modules para Dataproc, BigQuery, Pub/Sub)
+- ⚡ **Exactly-once semantics** com checkpointing GCS
+- 📊 **Dashboard Looker** com métricas em tempo real
+
+**[📂 Ver Repositório](https://github.com/alex3ai/spark-streaming-gcp-terraform)** | **[📖 Arquitetura Detalhada](https://github.com/alex3ai/spark-streaming-gcp-terraform#-arquitetura)**
+
+---
+
+### 🤖 Real-Time Sentiment Analysis Pipeline (Local)
 
 **Stack:** `Apache Spark` `Kafka` `Docker` `NLTK VADER` `Pandas UDF`
 
@@ -193,6 +214,8 @@ Bot de coleta de dados (News Scraping) com ciclo completo de GitOps. Execução 
 **☁️ MLOps e Cloud**  
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
 ![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=google-cloud&logoColor=white)
+![Dataproc](https://img.shields.io/badge/Dataproc-4285F4?style=flat&logo=apache-spark&logoColor=white)
+![Pub/Sub](https://img.shields.io/badge/Pub/Sub-4285F4?style=flat&logo=google-cloud&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
 ![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat&logo=helm&logoColor=white)
@@ -202,6 +225,7 @@ Bot de coleta de dados (News Scraping) com ciclo completo de GitOps. Execução 
 ![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat&logo=apache-kafka&logoColor=white)
 ![Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=flat&logo=apache-spark&logoColor=white)
 ![BigQuery](https://img.shields.io/badge/BigQuery-4285F4?style=flat&logo=google-cloud&logoColor=white)
+![Looker Studio](https://img.shields.io/badge/Looker_Studio-4285F4?style=flat&logo=google-cloud&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 
@@ -291,6 +315,7 @@ Bot de coleta de dados (News Scraping) com ciclo completo de GitOps. Execução 
 - MLOps na Prática: De Jupyter Notebook para GKE em 30 minutos
 - Pandas UDF vs UDFs Tradicionais: Benchmark Real de Performance
 - Site Reliability Engineering para Pipelines de Dados
+- Arquitetura Híbrida: Do Desenvolvimento Local para GCP em 5 Minutos
 
 </div>
 
@@ -327,5 +352,5 @@ Bot de coleta de dados (News Scraping) com ciclo completo de GitOps. Execução 
 </div>
 
 <div align="center">
-  <sub>⚡ Construído com dedicação por Alex Mendes | Última atualização: Novembro 2025</sub>
+  <sub>⚡ Construído com dedicação por Alex Mendes | Última atualização: Dezembro 2025</sub>
 </div>
