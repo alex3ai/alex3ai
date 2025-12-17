@@ -13,6 +13,7 @@
 + 🎓 Cientista de Dados | FATEC
 + 🔧 Especialista em MLOps e Site Reliability Engineering
 + ☁️ Google Cloud Platform (GCP) e Kubernetes
++ 🕸️ Network Science aplicada a sistemas distribuídos
 + 📊 Transformando modelos em produtos escaláveis e confiáveis
 ```
 
@@ -40,9 +41,9 @@ Meu principal diferencial é a capacidade de **transitar fluidamente entre a mod
 
 <div align="center">
 
-| 🚀 Deploys Automatizados | ☁️ Clusters Gerenciados | 📊 TB de Dados Processados | ⚡ APIs em Produção |
-|:---:|:---:|:---:|:---:|
-| **20+** | **5+** | **12+ TB** | **6+** |
+| 🚀 Deploys Automatizados | ☁️ Clusters Gerenciados | 📊 TB de Dados Processados | ⚡ APIs em Produção | 🕸️ Grafos Analisados |
+|:---:|:---:|:---:|:---:|:---:|
+| **25+** | **6+** | **15+ TB** | **8+** | **100M+ nós** |
 
 </div>
 
@@ -74,16 +75,15 @@ Atuo na interseção entre **Data Science, MLOps e SRE** (Site Reliability Engin
 - Modelagem dimensional
 
 </td>
-</tr>
 <tr>
 <td width="50%">
 
-### 🛡️ Site Reliability Engineering
-- Análise de performance com **Locust**
-- Monitoramento: **Prometheus e Grafana**
-- APIs de alta disponibilidade (**FastAPI**)
-- Observabilidade end-to-end
-- Checkpoint strategies e fault tolerance
+### 🕸️ Graph Analytics & Network Science
+- **GraphFrames** para processamento distribuído
+- Algoritmos de centralidade (**PageRank, Betweenness**)
+- Detecção de comunidades (**LPA, Louvain**)
+- Análise de redes scale-free
+- Validação estatística de topologias
 
 </td>
 <td width="50%">
@@ -97,6 +97,17 @@ Atuo na interseção entre **Data Science, MLOps e SRE** (Site Reliability Engin
 
 </td>
 </tr>
+
+<tr>
+<td width="50%">
+
+### 🛡️ Site Reliability Engineering
+- Análise de performance com **Locust**
+- Monitoramento: **Prometheus e Grafana**
+- APIs de alta disponibilidade (**FastAPI**)
+- Observabilidade end-to-end
+- Checkpoint strategies e fault tolerance
+
 </table>
 
 ---
@@ -188,20 +199,20 @@ Pipeline de streaming completo para análise de sentimentos em tempo real com la
 
 ---
 
-### 🔧 Automação e GitOps para Coleta de Dados
+### 🕸️ GraphX Community Detection Engine
 
-**Stack:** `GitHub Actions` `Python` `BeautifulSoup` `Cron Jobs`
+**Stack:** `Apache Spark` `GraphFrames` `Docker` `NetworkX` `Kubernetes`
 
-Bot de coleta de dados (News Scraping) com ciclo completo de GitOps. Execução automatizada, tratamento de falhas e versionamento de dados.
+Pipeline distribuído enterprise-grade para detecção de comunidades em grafos massivos com suporte a milhões de nós. Implementação de algoritmos científicos (PageRank, Label Propagation) com otimizações de performance para ambientes distribuídos.
 
 **✨ Highlights:**
-- ⏰ **Cron Job** automatizado (execução diária)
-- 🔄 **Versionamento** de dados no Git
-- 🛡️ **Error Handling** robusto
-- 📊 **Logs** estruturados para auditoria
-- 🚀 **Zero servidor** (serverless via GitHub Actions)
+- 🚀 **Auto-scaling** dinâmico de partições baseado em recursos
+- 📊 **Lei de Potência** validada (Barabási-Albert model)
+- ⚡ **AQE Enabled** (Adaptive Query Execution)
+- 🎯 **Checkpoint Strategy** para fault tolerance
+- 📈 **Análise científica** com validação estatística
 
-**[📂 Ver Repositório](https://github.com/alex3ai/daily-headline-bot)**
+**[📂 Ver Repositório](https://github.com/alex3ai/graphx-community-detection)** | **[📊 Performance Benchmarks](https://github.com/alex3ai/graphx-community-detection#-performance-benchmarks)**
 
 ---
 
@@ -224,6 +235,8 @@ Bot de coleta de dados (News Scraping) com ciclo completo de GitOps. Execução 
 **📊 Data Streaming e Engineering**  
 ![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat&logo=apache-kafka&logoColor=white)
 ![Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=flat&logo=apache-spark&logoColor=white)
+![GraphFrames](https://img.shields.io/badge/GraphFrames-4DB33D?style=flat&logo=apache&logoColor=white)
+![NetworkX](https://img.shields.io/badge/NetworkX-3776AB?style=flat&logo=python&logoColor=white)
 ![BigQuery](https://img.shields.io/badge/BigQuery-4285F4?style=flat&logo=google-cloud&logoColor=white)
 ![Looker Studio](https://img.shields.io/badge/Looker_Studio-4285F4?style=flat&logo=google-cloud&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
@@ -313,9 +326,11 @@ Bot de coleta de dados (News Scraping) com ciclo completo de GitOps. Execução 
 📌 **Tópicos planejados:**
 - Como Reduzir 40% do Custo de Infraestrutura com Kafka KRaft
 - MLOps na Prática: De Jupyter Notebook para GKE em 30 minutos
+- Graph Analytics em Escala: Apache Spark + GraphFrames para 100M+ Nós
 - Pandas UDF vs UDFs Tradicionais: Benchmark Real de Performance
 - Site Reliability Engineering para Pipelines de Dados
 - Arquitetura Híbrida: Do Desenvolvimento Local para GCP em 5 Minutos
+- Lei de Potência em Redes Sociais: Validação Científica com NetworkX
 
 </div>
 
