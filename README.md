@@ -27,7 +27,7 @@ Sou Cientista de Dados formado pela FATEC e dedico minha carreira a aplicar habi
 
 Meu principal diferencial é a capacidade de **transitar fluidamente entre a modelagem estatística complexa e a engenharia de software de alta performance**. Minha abordagem vai além do simples treinamento de modelos; eu me concentro em projetar, construir e validar a infraestrutura completa de MLOps e Dados para garantir que as soluções operem com máxima confiabilidade e eficiência no mundo real.
 
-**O que me move:**
+**hobbies*
 - 🎯 Resolver problemas complexos de escalabilidade e confiabilidade
 - 🚀 Automatizar pipelines end-to-end (do dado bruto ao modelo em produção)
 - 📈 Otimizar custos de infraestrutura (FinOps) sem comprometer performance
