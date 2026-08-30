@@ -14,10 +14,12 @@
 + 🔧 Especialista em MLOps e Site Reliability Engineering
 + ☁️ Google Cloud Platform (GCP) e Kubernetes
 + 🕸️ Network Science aplicada a sistemas distribuídos
++ 🤖 Agentes Autônomos e orquestração com LangGraph
++ 🧪 Avaliação rigorosa de agentes LLM (benchmark + estresse)
 + 📊 Transformando modelos em produtos escaláveis e confiáveis
 ```
 
-**Minha missão:** Construir sistemas de IA que não apenas funcionam no notebook, mas **operam com confiabilidade de 99.9% em produção**.
+**Minha missão:** Construir sistemas de IA que não apenas funcionam no notebook, mas **operam com confiabilidade de 99.9% em produção** — e agentes autônomos avaliados com o mesmo rigor de SRE.
 
 <details>
 <summary>📖 <b>Leia mais sobre minha trajetória</b></summary>
@@ -26,6 +28,8 @@
 Sou Cientista de Dados formado pela FATEC e dedico minha carreira a aplicar habilidades analíticas para construir sistemas de IA robustos, confiáveis e escaláveis.
 
 Meu principal diferencial é a capacidade de **transitar fluidamente entre a modelagem estatística complexa e a engenharia de software de alta performance**. Minha abordagem vai além do simples treinamento de modelos; eu me concentro em projetar, construir e validar a infraestrutura completa de MLOps e Dados para garantir que as soluções operem com máxima confiabilidade e eficiência no mundo real.
+
+Desde 2026, esse rigor migrou também para o mundo dos **agentes autônomos**: construí orquestradores com LangGraph que delegam execução a data planes remotos isolados, agentes de domínio normativo com RAG e, principalmente, um método próprio de **avaliação de agentes** — com benchmark de casos reais, juiz LLM multi-turno e simulados de estresse (prompt injection, saída de fluxo). Acredito que um agente só está pronto para produção quando sua qualidade é **mensurável**.
 
 **hobbies*
 - 🎯 Resolver problemas complexos de escalabilidade e confiabilidade
@@ -45,13 +49,17 @@ Meu principal diferencial é a capacidade de **transitar fluidamente entre a mod
 |:---:|:---:|:---:|:---:|:---:|
 | **25+** | **6+** | **15+ TB** | **8+** | **100M+ nós** |
 
+| 🤖 Agentes Avaliados | 📋 Casos de Benchmark | 🧪 Cenários de Estresse | 🧩 Plugins Operacionais | 🛣️ Fases de Roadmap |
+|:---:|:---:|:---:|:---:|:---:|
+| **2+** | **33+** | **10+** | **10+** | **8** |
+
 </div>
 
 ---
 
 ## 🎯 Foco e Especializações
 
-Atuo na interseção entre **Data Science, MLOps e SRE** (Site Reliability Engineering), transformando protótipos em produtos resilientes.
+Atuo na interseção entre **Data Science, MLOps, SRE** (Site Reliability Engineering) e **Agentes Autônomos**, transformando protótipos em produtos resilientes — e agentes em sistemas auditáveis.
 
 <table>
 <tr>
@@ -97,18 +105,60 @@ Atuo na interseção entre **Data Science, MLOps e SRE** (Site Reliability Engin
 
 </td>
 </tr>
-
 <tr>
-<td width="50%">
+<td width="100%" colspan="2">
 
-### 🛡️ Site Reliability Engineering
-- Análise de performance com **Locust**
-- Monitoramento: **Prometheus e Grafana**
-- APIs de alta disponibilidade (**FastAPI**)
-- Observabilidade end-to-end
-- Checkpoint strategies e fault tolerance
+### 🧠 Agentes Autônomos & LLM Ops
+- **LangGraph** para orquestração de agentes (control plane / data plane)
+- **Model Context Protocol (MCP)** para integração com ferramentas
+- **Avaliação de agentes com juiz LLM** multi-turno (nota + justificativa + evidência)
+- **Simulado de estresse**: prompt injection, saída de fluxo, ambiguidade destrutiva
+- RAG enterprise com **PostgreSQL/Redis/Chroma** e observabilidade com **LangSmith**
+- **FinOps aplicado a LLM**: custo por sessão, dedupe de lições, monitoramento contínuo
 
+</td>
+</tr>
 </table>
+
+---
+
+## 🤖 Agentes Autônomos & LLM Ops
+
+### 🏥 Agente de Domínio Normativo — Plano de Saúde 🔒
+
+**Stack:** `LangGraph` `RAG` `Python` `LLM-as-Judge`
+
+Agente que interpreta um corpo normativo real (regras de plano de saúde) e responde com **fundamentação rastreável** — não apenas a resposta, mas a evidência que a sustenta.
+
+**✨ Highlights:**
+- 📊 **Benchmark 90.27/100 em 33 casos reais** — vs. **36.19** de um baseline comercial
+- 🧪 **Simulado de estresse** com 10 cenários: prompt injection, saída de fluxo, ambiguidade destrutiva
+- ⚖️ **Avaliação multi-turno** com juiz LLM: nota, justificativa e evidência em cada caso
+- 🗂️ **Catálogo temporal** das regras: cada resposta aponta a versão da norma vigente
+
+### ⚙️ Orquestrador de Agentes LangGraph + Data Plane Remoto 🔒
+
+**Stack:** `LangGraph` `FastAPI` `PostgreSQL` `Redis` `Docker` `SSH`
+
+Control plane em Python puro que ingere especificações fatiadas e **delega a execução de código a um worker remoto isolado** (SSH/Docker), aplicando validações de SRE antes de aprovar qualquer código.
+
+**✨ Highlights:**
+- 🚦 **Gate de validação SRE**: testes, qualidade e rastreabilidade antes da aprovação
+- 🔐 **Motor FastAPI em produção** com RBAC por rota (run/resume/fork/classificar)
+- 🛣️ **Roadmap de 8 fases concluído**, com CI no GitHub Actions
+- 🩺 **Pente fino autônomo**: coleta de lições de falhas em produção **sem custo de LLM**
+
+### 🧩 Ecossistema de Engenharia de Agentes 🔒
+
+**Stack:** `Python` `Bash` `PowerShell` `Telegram API`
+
+Infraestrutura pessoal que me permite operar agentes de IA com disciplina de engenharia — não só na teoria, mas no dia a dia.
+
+**✨ Highlights:**
+- 🧩 **10 plugins opencode**: barramento multi-TUI cooperativo, kernel Python persistente, watchdog de saúde
+- 🕵️ **Pente fino autônomo**: varredura contínua de falhas/heartbeats/locks com dedupe por hash e anotação automática de lições
+- 📚 **Base de conhecimento em camadas** (kit → global → projeto) com espelhamento versionado
+- 🛡️ **Wrappers SRE**: execução protegida com timeout, SSH anti-travamento, pager via Telegram
 
 ---
 
@@ -222,6 +272,15 @@ Pipeline distribuído enterprise-grade para detecção de comunidades em grafos 
 <summary><b>🔧 Clique para expandir/recolher</b></summary>
 <br>
 
+**🤖 Agentes & GenAI Ops**  
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat&logo=langgraph&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000000?style=flat)
+![LangSmith](https://img.shields.io/badge/LangSmith-000000?style=flat)
+![RAG](https://img.shields.io/badge/RAG-3C873A?style=flat)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![Chroma](https://img.shields.io/badge/Chroma-4DB33D?style=flat)
+
 **☁️ MLOps e Cloud**  
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
 ![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=google-cloud&logoColor=white)
@@ -313,7 +372,7 @@ Pipeline distribuído enterprise-grade para detecção de comunidades em grafos 
 
 </div>
 
-> 💡 **Contribua comigo:** Se você tem projetos open source relacionados a MLOps, Data Engineering ou SRE, adoraria colaborar!
+> 💡 **Contribua comigo:** Se você tem projetos open source relacionados a MLOps, Data Engineering, SRE ou Agentes Autônomos, adoraria colaborar!
 
 ---
 
@@ -321,9 +380,12 @@ Pipeline distribuído enterprise-grade para detecção de comunidades em grafos 
 
 <div align="center">
 
-### 🚀 Em breve: Série de artigos técnicos sobre MLOps, SRE e Data Engineering
+### 🚀 Em breve: Série de artigos técnicos sobre MLOps, SRE, Data Engineering e Agentes
 
 📌 **Tópicos planejados:**
+- Orquestração de Agentes com LangGraph: Do Protótipo ao Control Plane em Produção
+- Avaliando Agentes LLM: Benchmark com Juiz Multi-turno e Casos de Estresse
+- SRE para LLMs: FinOps, Pente Fino Autônomo e Confiabilidade em Produção
 - Como Reduzir 40% do Custo de Infraestrutura com Kafka KRaft
 - MLOps na Prática: De Jupyter Notebook para GKE em 30 minutos
 - Graph Analytics em Escala: Apache Spark + GraphFrames para 100M+ Nós
@@ -343,9 +405,10 @@ Pipeline distribuído enterprise-grade para detecção de comunidades em grafos 
 ### Estou **aberto a:**
 
 🚀 **Consultorias** em MLOps e Cloud Architecture  
+🤖 **Projetos de agentes autônomos** e LLM Ops  
 💼 **Oportunidades** de colaboração em projetos desafiadores  
-🎤 **Palestras técnicas** sobre SRE e Data Engineering  
-🤝 **Mentorias** em Data Science e MLOps  
+🎤 **Palestras técnicas** sobre SRE, Data Engineering e Agentes  
+🤝 **Mentorias** em Data Science, MLOps e Agentes  
 
 </div>
 
@@ -367,5 +430,5 @@ Pipeline distribuído enterprise-grade para detecção de comunidades em grafos 
 </div>
 
 <div align="center">
-  <sub>⚡ Construído com dedicação por Alex Mendes | Última atualização: Dezembro 2025</sub>
+  <sub>⚡ Construído com dedicação por Alex Mendes | Última atualização: Agosto 2026</sub>
 </div>
